@@ -250,9 +250,9 @@ hr {
 
 .c1:hover {
   transform: translateY(-6px) scale(1.03);
-  border-color: #ff3333;               
+  border-color: #381c9e;               
   background-color: #fff5f5;               
-  box-shadow: 0 4px 15px rgba(0,0,0,0.15);  
+  box-shadow: 0 4px 15px rgba(54, 13, 188, 0.904);  
   cursor: pointer;                         
 }
 
@@ -420,7 +420,7 @@ hr {
 
 .contact-item i {
   font-size: 20px;
-  color: #c69bd6;
+  color: #323ab7;
 }
 
 .social-links {
