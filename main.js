@@ -61,25 +61,33 @@ backToTop.style.cssText = `
   position: fixed;
   bottom: 40px;
   right: 40px;
-  background: #474af0;
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
   color: white;
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
   display: none;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   z-index: 1000;
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.2);
 `;
 
 backToTop.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
-backToTop.addEventListener('mouseover', () => backToTop.style.transform = 'scale(1.2)');
-backToTop.addEventListener('mouseout', () => backToTop.style.transform = 'scale(1)');
+backToTop.addEventListener('mouseover', () => {
+  backToTop.style.transform = 'scale(1.15) translateY(-5px)';
+  backToTop.style.boxShadow = '0 6px 20px rgba(99, 102, 241, 0.5)';
+});
+backToTop.addEventListener('mouseout', () => {
+  backToTop.style.transform = 'scale(1) translateY(0)';
+  backToTop.style.boxShadow = '0 4px 15px rgba(99, 102, 241, 0.3)';
+});
 
 const cards = document.querySelectorAll('.project-card, .c1, .service-card');
 cards.forEach(card => {
