@@ -7,7 +7,7 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-[🌐 Live Demo](https://vnussss.github.io/Portfolio) | [📧 Contact](mailto:drusti1591@gmail.com)
+[🌐 Live Demo](https://vnussss.github.io/PORTFOLIO) | [📧 Contact](mailto:drusti1591@gmail.com)
 
 </div>
 
