@@ -52,13 +52,34 @@
     </header>
     <!-- home -->
     <section class="home" id="home">
-        <p class="home-p">
-        </p>
+        <!-- Animated background particles -->
+        <div class="particles-bg">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        
+        <div class="status-badge">
+            <span class="pulse-dot"></span>
+            <span class="status-text">Available for Hire</span>
+        </div>
+        
         <div class="home-container">
         <div class="home-section">
             <div class="info-home">
-                <h1>Hi, I'm Venus. </h1>
-                <h3>Data Analyst</h3>
+                <div class="welcome-badge">
+                    <span class="wave-emoji">👋</span>
+                    <span>Welcome to my portfolio</span>
+                </div>
+                <h1>Hi, I'm <span class="gradient-text">Venus</span></h1>
+                <h3><span class="typing-text">Data Analyst</span></h3>
                 <div class="info-p">
                   <p>A tech-driven grad who vibes with Python, Data Analytics, and building smart systems that actually do something, not just sit pretty.</p>
                   <p>I love turning raw data into stories, visuals, and decisions.</p>
@@ -66,10 +87,13 @@
                 </div>
                 <div class="info-p2">
                     <p><i class="fa-solid fa-location-dot"></i> Bangalore</p>
-                    <p><i class="fa-solid fa-briefcase"></i> Available Now</p>
+                    <p class="status-indicator"><i class="fa-solid fa-circle"></i> Available Now</p>
                 </div>
                 <div class="btnn">
-                    <button class="btn-home1"><i class="fa-solid fa-arrow-right"></i> Hire Me</button>
+                    <button class="btn-home1 shimmer-btn">
+                        <span>Hire Me</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
                     <a href="https://drive.google.com/file/d/1K6tz4jHiUJW7cXDGhDPiOL3y0pkfoVz2/view?usp=drivesdk" 
    class="btn-home2" 
    download>
@@ -90,15 +114,29 @@
                 </div>
             </div>
           </div>
-          <img src="https://i.pinimg.com/736x/99/fe/b7/99feb7549f02f31360cca47facbe9151.jpg" alt="">
+          <div class="profile-image-container">
+              <div class="floating-icons">
+                  <i class="fa-brands fa-python floating-icon icon-1"></i>
+                  <i class="fa-solid fa-chart-line floating-icon icon-2"></i>
+                  <i class="fa-solid fa-database floating-icon icon-3"></i>
+                  <i class="fa-solid fa-code floating-icon icon-4"></i>
+              </div>
+              <img src="https://i.pinimg.com/736x/99/fe/b7/99feb7549f02f31360cca47facbe9151.jpg" alt="Venus Profile" class="profile-img">
+              <div class="image-glow"></div>
+          </div>
         </div>
     </section>
     <!-- fine home  -->
      <section class="about" id="about" >
-        <p id="about">ABOUT ME</p>
+        <div class="section-header">
+            <span class="section-tag">
+                <i class="fa-solid fa-user"></i>
+                ABOUT ME
+            </span>
+            <h1 class="section-title">Turning Data Into <span class="gradient-text">Insights</span></h1>
+            <p class="section-subtitle">Data Analysis Enthusiast & Digital Designer</p>
+        </div>
         <div class="title">
-        <h1> Data Analysis Enthusiast</h1>
-        <h1>Digital Designs</h1>
         </div>
         <div class="hrrr">
             <hr>
@@ -139,12 +177,16 @@
         </div>
      </section>
      <section class="project" id="project">
-        <p>PROJECTS</p>
-        <h1>Featured Work</h1>
+        <div class="section-header">
+            <span class="section-tag">
+                <i class="fa-solid fa-briefcase"></i>
+                PROJECTS
+            </span>
+            <h1 class="section-title">Featured <span class="gradient-text">Work</span></h1>
+            <p class="section-subtitle">A showcase of my recent projects demonstrating expertise in development and analytics</p>
+        </div>
         <hr>
         <div class="info-pro">
-            <p>A showcase of my recent projects demonstrating expertise in  </p>
-            <p>development, modern frameworks, and creative problem-solving.</p>
         </div>
         <br>
         <div class="projects-container">
@@ -212,11 +254,16 @@
   </div>
      </section>
      <section class="contact" id="contact">
-        <p>CONTACT</p>
-        <h1>Get in Touch with Me</h1>
+        <div class="section-header">
+            <span class="section-tag">
+                <i class="fa-solid fa-envelope"></i>
+                CONTACT
+            </span>
+            <h1 class="section-title">Let's <span class="gradient-text">Connect</span></h1>
+            <p class="section-subtitle">I'm always open to discuss exciting projects and new opportunities</p>
+        </div>
         <div class="contact-content">
       <div class="contact-info slide-in-left">
-        <p>I'm always open to discuss exciting projects and new opportunities. Let's collaborate!</p>
         <div class="contact-details">
           <div class="contact-item">
             <i class="fa-solid fa-envelope"></i>

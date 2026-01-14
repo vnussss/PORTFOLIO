@@ -50,7 +50,16 @@ window.addEventListener('scroll', () => {
 });
 
 const revealElements = document.querySelectorAll('.home-container, .about-container, .projects-container, .services-container, .contact-content');
-revealElements.forEach(el => el.classList.add('reveal'));
+// Make home section immediately visible
+document.querySelector('.home-container').style.opacity = '1';
+document.querySelector('.home-container').style.transform = 'translateY(0)';
+
+// Apply reveal class to others
+revealElements.forEach((el, index) => {
+  if (index !== 0) {
+    el.classList.add('reveal');
+  }
+});
 
 const backToTop = document.createElement('div');
 backToTop.innerHTML = '<i class="fa-solid fa-chevron-up"></i>';
